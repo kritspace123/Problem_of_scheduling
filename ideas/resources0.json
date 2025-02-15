@@ -1,0 +1,11 @@
+{
+	"recources" : 
+	{
+		"programmer": [10,10],
+		"server": [10,10],
+		"designer": [10,10],
+		"tester": [10,10],
+		"analyst": [10,10],
+		"DevOps": [10,10]
+	}
+}

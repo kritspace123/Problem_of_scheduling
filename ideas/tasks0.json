@@ -1,0 +1,23 @@
+{
+	"tasks":[
+		{
+			"task_id": 1,
+			"task_name": "Задача 1", 
+			"operations":[
+				{
+					"operation_id": 1,
+					"duration": 5, 
+					"resource_need": {
+						"programmer": 2,
+						"server": 1,
+						"designer": 1,
+						"tester": 1,
+						"analyst": 1,
+						"DevOps": 1
+					},
+					"array": [4, 5, 1, 1, 1]
+				}
+			]
+		}
+	]
+}
