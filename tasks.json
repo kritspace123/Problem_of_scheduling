@@ -1,0 +1,79 @@
+{
+    "tasks": [
+        {
+            "task_id": 1,
+            "task_name": "Задача 1",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 7,
+                    "resource_need": {
+                        "programmer": 3,
+                        "server": 2,
+                        "designer": 2,
+                        "tester": 1,
+                        "analyst": 1,
+                        "DevOps": 1
+                    }
+                }
+            ],
+            "array": [
+                3,
+                4,
+                4,
+                3,
+                2
+            ]
+        },
+        {
+            "task_id": 2,
+            "task_name": "Задача 2",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 9,
+                    "resource_need": {
+                        "programmer": 2,
+                        "server": 2,
+                        "designer": 1,
+                        "tester": 2,
+                        "analyst": 2,
+                        "DevOps": 2
+                    }
+                }
+            ],
+            "array": [
+                2,
+                2,
+                5,
+                5,
+                3
+            ]
+        },
+        {
+            "task_id": 3,
+            "task_name": "Задача 3",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 9,
+                    "resource_need": {
+                        "programmer": 2,
+                        "server": 3,
+                        "designer": 2,
+                        "tester": 2,
+                        "analyst": 2,
+                        "DevOps": 1
+                    }
+                }
+            ],
+            "array": [
+                5,
+                1,
+                5,
+                4,
+                3
+            ]
+        }
+    ]
+}

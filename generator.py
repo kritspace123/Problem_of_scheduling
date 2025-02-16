@@ -42,13 +42,13 @@ def save_json_to_file(filename, num_tasks):
 	print(f"Данные успешно сохранены в файл {filename}")
 
 def save_json_to_file(filename, num_tasks):
-    # Генерация данных
-    data = generate_task_json(num_tasks)
-    
-    # Сохранение данных в файл
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-    print(f"Данные успешно сохранены в файл {filename}")
+	# Генерация данных
+	data = generate_task_json(num_tasks)
+	
+	# Сохранение данных в файл
+	with open(filename, 'w', encoding='utf-8') as f:
+		json.dump(data, f, ensure_ascii=False, indent=4)
+	print(f"Данные успешно сохранены в файл {filename}")
 
 def generate_resources_json():
 	resources = {

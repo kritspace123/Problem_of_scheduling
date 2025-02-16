@@ -1,0 +1,28 @@
+{
+    "recources": {
+        "programmer": [
+            8,
+            7
+        ],
+        "server": [
+            5,
+            2
+        ],
+        "designer": [
+            5,
+            8
+        ],
+        "tester": [
+            5,
+            9
+        ],
+        "analyst": [
+            1,
+            5
+        ],
+        "DevOps": [
+            8,
+            10
+        ]
+    }
+}
