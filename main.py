@@ -43,7 +43,7 @@ def profit(service: Service, tasks, Nos: int, time: int):
 def maximize(service: Service, tasks, Nos: int, time: int):
    max_profit = 0
    max_best_order = []
-   # profit(service=service, tasks=tasks, Nos=Nos,time=time)
+   # print(profit(service=service, tasks=tasks, Nos=Nos,time=time))
    permutations = list(itertools.permutations(tasks))
    for perm in permutations:
       prof = profit(service=service, tasks=perm, Nos=Nos,time=time)
