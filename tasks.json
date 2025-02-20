@@ -6,23 +6,23 @@
             "operations": [
                 {
                     "operation_id": 1,
-                    "duration": 7,
+                    "duration": 9,
                     "resource_need": {
-                        "programmer": 3,
+                        "programmer": 1,
                         "server": 2,
-                        "designer": 2,
+                        "designer": 1,
                         "tester": 1,
                         "analyst": 1,
-                        "DevOps": 1
+                        "DevOps": 2
                     }
                 }
             ],
             "array": [
+                5,
+                5,
                 3,
-                4,
-                4,
-                3,
-                2
+                2,
+                1
             ]
         },
         {
@@ -31,23 +31,23 @@
             "operations": [
                 {
                     "operation_id": 1,
-                    "duration": 9,
+                    "duration": 2,
                     "resource_need": {
-                        "programmer": 2,
-                        "server": 2,
-                        "designer": 1,
+                        "programmer": 1,
+                        "server": 1,
+                        "designer": 2,
                         "tester": 2,
-                        "analyst": 2,
-                        "DevOps": 2
+                        "analyst": 1,
+                        "DevOps": 1
                     }
                 }
             ],
             "array": [
-                2,
-                2,
+                4,
                 5,
+                3,
                 5,
-                3
+                1
             ]
         },
         {
@@ -61,18 +61,193 @@
                         "programmer": 2,
                         "server": 3,
                         "designer": 2,
-                        "tester": 2,
-                        "analyst": 2,
-                        "DevOps": 1
+                        "tester": 1,
+                        "analyst": 1,
+                        "DevOps": 2
                     }
                 }
             ],
             "array": [
                 5,
+                3,
+                4,
+                5,
+                5
+            ]
+        },
+        {
+            "task_id": 4,
+            "task_name": "Задача 4",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 1,
+                    "resource_need": {
+                        "programmer": 3,
+                        "server": 3,
+                        "designer": 1,
+                        "tester": 1,
+                        "analyst": 2,
+                        "DevOps": 2
+                    }
+                }
+            ],
+            "array": [
+                2,
+                4,
+                3,
+                3,
+                3
+            ]
+        },
+        {
+            "task_id": 5,
+            "task_name": "Задача 5",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 10,
+                    "resource_need": {
+                        "programmer": 2,
+                        "server": 3,
+                        "designer": 1,
+                        "tester": 2,
+                        "analyst": 1,
+                        "DevOps": 1
+                    }
+                }
+            ],
+            "array": [
+                4,
+                2,
+                3,
+                5,
+                1
+            ]
+        },
+        {
+            "task_id": 6,
+            "task_name": "Задача 6",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 10,
+                    "resource_need": {
+                        "programmer": 2,
+                        "server": 1,
+                        "designer": 2,
+                        "tester": 1,
+                        "analyst": 2,
+                        "DevOps": 2
+                    }
+                }
+            ],
+            "array": [
+                5,
+                3,
+                5,
+                3,
+                2
+            ]
+        },
+        {
+            "task_id": 7,
+            "task_name": "Задача 7",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 4,
+                    "resource_need": {
+                        "programmer": 3,
+                        "server": 2,
+                        "designer": 2,
+                        "tester": 1,
+                        "analyst": 1,
+                        "DevOps": 1
+                    }
+                }
+            ],
+            "array": [
+                4,
+                1,
+                4,
+                5,
+                5
+            ]
+        },
+        {
+            "task_id": 8,
+            "task_name": "Задача 8",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 5,
+                    "resource_need": {
+                        "programmer": 3,
+                        "server": 3,
+                        "designer": 1,
+                        "tester": 2,
+                        "analyst": 2,
+                        "DevOps": 2
+                    }
+                }
+            ],
+            "array": [
+                5,
+                3,
+                4,
+                4,
+                4
+            ]
+        },
+        {
+            "task_id": 9,
+            "task_name": "Задача 9",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 10,
+                    "resource_need": {
+                        "programmer": 1,
+                        "server": 3,
+                        "designer": 2,
+                        "tester": 2,
+                        "analyst": 2,
+                        "DevOps": 2
+                    }
+                }
+            ],
+            "array": [
+                4,
                 1,
                 5,
                 4,
-                3
+                1
+            ]
+        },
+        {
+            "task_id": 10,
+            "task_name": "Задача 10",
+            "operations": [
+                {
+                    "operation_id": 1,
+                    "duration": 10,
+                    "resource_need": {
+                        "programmer": 1,
+                        "server": 2,
+                        "designer": 2,
+                        "tester": 2,
+                        "analyst": 2,
+                        "DevOps": 2
+                    }
+                }
+            ],
+            "array": [
+                5,
+                5,
+                5,
+                2,
+                4
             ]
         }
     ]

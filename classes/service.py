@@ -14,6 +14,9 @@ class Service:
       self.LCR += array[3]
       self.PCR += array[4]
       
+   def get_array(self) -> list[int]:
+      return [self.LT, self.AC, self.CPC, self.LCR, self.PCR]
+
 
    def __str__(self):
       return f"""

@@ -1,5 +1,5 @@
-from task import Task
-from operation import Operation
+from classes.task import Task
+from classes.operation import Operation
 
 import json
 from dataclasses import dataclass

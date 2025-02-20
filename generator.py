@@ -71,5 +71,5 @@ def save_resources_json_to_file(filename):
 	print(f"Данные о ресурсах успешно сохранены в файл {filename}")
 
 
-save_json_to_file("tasks.json", 3)  # Сохранение данных о задачах в файл "tasks.json"
+save_json_to_file("tasks.json", 10)  # Сохранение данных о задачах в файл "tasks.json"
 save_resources_json_to_file("resources.json")  # Сохранение данных о ресурсах в файл "resources.json"

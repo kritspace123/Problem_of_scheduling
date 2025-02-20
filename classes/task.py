@@ -1,4 +1,4 @@
-from operation import Operation
+from classes.operation import Operation
 class Task:
    def __init__(self, id: int, task_name: str, operation: Operation, array):
       self.id = id
