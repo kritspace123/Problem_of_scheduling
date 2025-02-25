@@ -77,3 +77,22 @@
         }
     ]
 }
+# Построение графика с использованием plotly
+trace = go.Scatter(
+    x=list(range(len(profit_history))),
+    y=profit_history,
+    mode='lines',
+    name='Прибыль',
+    line=dict(color='blue')
+)
+
+layout = go.Layout(
+    title='Изменение прибыли в процессе имитации отжига',
+    xaxis=dict(title='Итерации'),
+    yaxis=dict(title='Прибыль'),
+)
+
+fig = go.Figure(data=[trace], layout=layout)
+
+# Отображение графика
+plot(fig)

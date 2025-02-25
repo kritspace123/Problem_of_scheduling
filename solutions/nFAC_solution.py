@@ -1,7 +1,7 @@
 from classes.operation import Operation
 from classes.task import Task
 from classes.service import Service
-from profit import profit
+from solutions.profit import profit
 from print_solution import print_solution
 import itertools
 
